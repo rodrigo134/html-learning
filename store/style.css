@@ -1,46 +1,63 @@
 
-h1,
-h2,
-h3,
-h4,
-p,
-li,
-a,
-figcaption{
-    font-family: "Montserrat",sans-serif;
-    
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-h1{
-    font-size: 45px;
-    line-height: 1;
-}
-h2{
-    font-size: 32px;
-    line-height: 1.1;
-}
-h3{
-    font-size: 24px;
-    line-height: 1.2;
-}
-p{
-    font-size: 18px;
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.8rem;
     line-height: 1.4;
 }
 
-figcaption{
-    font-size:12px ;
-    font-style: italic;
+h1{
+    font-size: 4.5rem;
+    line-height: 1;
+    margin-bottom: 3.2rem;
 }
-a{
+h2{
+    font-size: 3.2rem;
+    line-height: 1.1;
+    margin-bottom: 2.4rem;
+}
+h3{
+    font-size: 2.4rem;
+    line-height: 1.2;
+    margin-bottom: 1.8rem;
+}
+
+figure{
+    margin-bottom: 3.2rem;
+}
+figcaption{
+    font-size:1.2rem ;
+    font-style: italic;
+    margin-left: 3.2rem;
+}
+a:link,a:visited{
     color: #c44105;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     text-decoration: double;
     text-decoration-line: underline;
+    display: inline-block;
+    margin-bottom: 2.4rem;
+}
+a:hover,a:active{
+    color: #0588c4;
+}
+
+ul{
+    margin-bottom: 2.4rem;
+    margin-left: 2.4rem;
 }
 li{
     color: #035276;
     font-style: italic;
+    margin-bottom: 0.6rem;
 }
 .realce-h1 {
     color: #0588c4;
@@ -56,4 +73,34 @@ li{
 .realce-underline{
     color:#0588c4 ;
     text-decoration: underline;
+}
+hr{
+    display: none;
+}
+html{
+    font-size: 62.5%;
+}
+section{
+    padding: 2.4rem;
+}
+
+p{
+    margin-bottom: 0.6rem;
+}
+h1::first-letter{
+    font-size: 6.4rem;
+}
+.div-condiçoes{
+    display: inline-block;
+    background-color: #035276;
+    border-radius: 2rem;
+    color: #fff;
+    box-shadow: 0 0 1.6rem 0.4rem rgba(0, 0.8,0, 0.2);
+    padding:  2.4rem 3.2rem;
+    
+}
+.div-condiçoes .realce-italico{
+    color: #78d4ff;
+}.div-condiçoes .realce-underline{
+    color: #78d4ff;
 }
